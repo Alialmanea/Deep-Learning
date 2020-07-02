@@ -33,15 +33,15 @@ Gradient descent is an iterative optimization algorithm to find the minimum of a
 Initially let m = 0 and c = 0. Let L be our learning rate. This controls how much the value of m changes with each step. L could be a small value like 0.0001 for good accuracy.
 Calculate the partial derivative of the loss function with respect to m, and plug in the current values of x, y, m and c in it to obtain the derivative value D
 
-<img src="<img src="https://miro.medium.com/max/600/1*_y5QA1yF4w6LDDRxfTt6GA.jpeg" title=""/>" title=""/>
+<img src="https://miro.medium.com/max/600/1*_y5QA1yF4w6LDDRxfTt6GA.jpeg" title=""/>
 
 Dₘ is the value of the partial derivative with respect to m. Similarly lets find the partial derivative with respect to c, Dc :
 
-<img src="<img src="https://miro.medium.com/max/600/1*rj09w2TcBxnHPtQ0oq4ehA.jpeg" title=""/>" title=""/>
+<img src="https://miro.medium.com/max/600/1*rj09w2TcBxnHPtQ0oq4ehA.jpeg" title=""/>
 
 3. Now we update the current value of m and c using the following equation:
 
-<img src="<img src="https://miro.medium.com/max/600/1*JDcHqFK8jLcgQu1cj2XuVQ.jpeg" title=""/>" title=""/>
+<img src="https://miro.medium.com/max/600/1*JDcHqFK8jLcgQu1cj2XuVQ.jpeg" title=""/>
 
 
 We repeat this process until our loss function is a very small value or ideally 0 (which means 0 error or 100% accuracy). The value of m and c that we are left with now will be the optimum values.
