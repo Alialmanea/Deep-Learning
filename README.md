@@ -51,7 +51,7 @@ Now with the optimum value of m and c our model is ready to make predictions !
 
 
 
-<img src="<img src="Figure_1.png" title=""/>" title=""/>
+<img src="<img src="Figure_1.png" title=""/>
 
 
 
